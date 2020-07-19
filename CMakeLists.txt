@@ -6,10 +6,10 @@ set(mysqllib /usr/lib/x86_64-linux-gnu/libmysqlclient.so)
 
 add_executable(
         main main.cpp
-        httpconn.h httpconn.cpp
         sqlconn.h sqlconn.cpp
         threadpool.h
         locker.h locker.cpp
+        httpconn.h httpconn.cpp
         config.h config.cpp
         webser.h webser.cpp
         timer.h timer.cpp

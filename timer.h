@@ -2,8 +2,8 @@
 // Created by hxj on 7/15/20.
 //
 
-#ifndef WEBSERVER2_TIMER_H
-#define WEBSERVER2_TIMER_H
+#ifndef TIMER_H
+#define TIMER_H
 
 #include "httpconn.h"
 #include <arpa/inet.h>
@@ -75,4 +75,4 @@ public:
 
 void cb_func(client_data *user_data);
 
-#endif  // WEBSERVER2_TIMER_H
+#endif  // TIMER_H

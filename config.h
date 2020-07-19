@@ -2,8 +2,8 @@
 // Created by hxj on 7/15/20.
 //
 
-#ifndef WEBSERVER2_CONFIG_H
-#define WEBSERVER2_CONFIG_H
+#ifndef CONFIG_H
+#define CONFIG_H
 #include <cstdlib>
 #include <iostream>
 #include <unistd.h>
@@ -25,4 +25,4 @@ public:
     int actor_model;
 };
 
-#endif  // WEBSERVER2_CONFIG_H
+#endif  // CONFIG_H

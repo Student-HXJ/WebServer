@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="WebServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/hxj/File007/CLion/WebServer/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/hxj/File007/CLion/WebServer/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/hxj/File007/CLion/WebServer/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/hxj/File007/CLion/WebServer/build/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hxj/File007/CLion/WebServer/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/hxj/File007/CLion/WebServer/build/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/hxj/File007/CLion/WebServer/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/hxj/File007/CLion/WebServer/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/config.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/config.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/httpconn.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/httpconn.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/locker.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/locker.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/sqlconn.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/sqlconn.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/threadpool.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/timer.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/timer.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/webser.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/webser.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/hxj/File007/CLion/WebServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

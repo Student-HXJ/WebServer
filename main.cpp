@@ -10,7 +10,7 @@ int main(int argc, char **argv) {
     config conf;
     conf.parse_arg(argc, argv);
 
-    webser serv;
+    WebServer serv;
     serv.init(conf.port, user, passwd, dbname, conf.opt_linger, conf.trigmode, conf.sql_num, conf.thread_num,
               conf.actor_model);
 

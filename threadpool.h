@@ -2,8 +2,9 @@
 // Created by hxj on 7/15/20.
 //
 
-#ifndef WEBSERVER2_THREADPOOL_H
-#define WEBSERVER2_THREADPOOL_H
+#ifndef THREADPOOL_H
+#define THREADPOOL_H
+#include "httpconn.h"
 #include "locker.h"
 #include "sqlconn.h"
 #include <list>
@@ -144,4 +145,4 @@ bool threadpool<T>::append(T *request) {
     }
 }
 
-#endif  // WEBSERVER2_THREADPOOL_H
+#endif  // THREADPOOL_H
